@@ -115,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upperBound: 30
   lowerBound: -10
+  sideBound: 30
 --- !u!65 &9015038865066508886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -130,12 +131,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.32699585, y: 0.32699984, z: 0.32700062}
-  m_Center: {x: 0, y: 0.16349992, z: 0}
+  m_Size: {x: 0.32699585, y: 0.32699984, z: 0.31847262}
+  m_Center: {x: 0, y: 0.16349992, z: -0.002845168}
 --- !u!54 &2772944854173642030
 Rigidbody:
   m_ObjectHideFlags: 0
