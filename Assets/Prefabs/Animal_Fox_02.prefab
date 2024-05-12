@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 6950686688887971757}
   m_Layer: 0
   m_Name: Animal_Fox_02
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -626,8 +626,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.09951484, y: 0.19969614, z: 0.30026838}
-  m_Center: {x: -0.0064339996, y: 0.101487435, z: 0.011664772}
+  m_Size: {x: 0.11384898, y: 0.25291997, z: 0.30026838}
+  m_Center: {x: -0.0051988694, y: 0.12809944, z: 0.011664772}
 --- !u!114 &6950686688887971757
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -45,7 +45,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnRandomAnimalRight()
     {
         int animalIndex = Random.Range(0, animalPrefabs.Length);
-        float randomSpawnInterval = Random.Range(2, 3);
+        float randomSpawnInterval = Random.Range(4, 5);
         Vector3 spawnPos = new Vector3(sideSpawnX, 0, Random.Range(sideSpawnMinZ, sideSpawnMaxZ));
         Vector3 rotation = new Vector3(0, -90, 0);
         Instantiate(animalPrefabs[animalIndex], spawnPos, Quaternion.Euler(rotation));
@@ -56,7 +56,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnRandomAnimalLeft()
     {
         int animalIndex = Random.Range(0, animalPrefabs.Length);
-        float randomSpawnInterval = Random.Range(2, 3);
+        float randomSpawnInterval = Random.Range(4, 5);
         Vector3 spawnPos = new Vector3(-sideSpawnX, 0, Random.Range(sideSpawnMinZ, sideSpawnMaxZ));
         Vector3 rotation = new Vector3(0, 90, 0);
         Instantiate(animalPrefabs[animalIndex], spawnPos, Quaternion.Euler(rotation));

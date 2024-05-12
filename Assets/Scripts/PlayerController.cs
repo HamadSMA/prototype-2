@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float xRange;
     public GameObject projectilePrefab;
+    public Transform projectileSpawnPoint;
     public float zMin;
     public float zMax;
     // Start is called before the first frame update
@@ -52,7 +53,7 @@ public class PlayerController : MonoBehaviour
         // shoot projectiles
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            Instantiate(projectilePrefab, transform.position + new Vector3(0, 0, 0.6f), Quaternion.identity);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
         }
     }
 
